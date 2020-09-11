@@ -1,0 +1,12 @@
+
+<!ELEMENT survey(isro +)>
+<!ELEMENT isro(Region,Location,FeatureType,ROVDives,AreaCovered,Depth,LandDistance,Proxy,Items)>
+<!ELEMENT Region(#PCDATA)> 
+<!ELEMENT Location(#PCDATA)>
+<!ELEMENT FeatureType(#PCDATA)>
+<!ELEMENT ROVDives(#PCDATA)>
+<!ELEMENT AreaCovered(#PCDATA)>
+<!ELEMENT Depth(#PCDATA)>
+<!ELEMENT LandDistance(#PCDATA)>
+<!ELEMENT Proxy(#PCDATA)>
+<!ELEMENT Items(#PCDATA)>
