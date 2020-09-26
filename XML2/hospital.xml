@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="hospital.css"?>
 
+<!DOCTYPE hospital SYSTEM "hospital.dtd">
+<!-- <!DOCTYPE hospital[
+
+<!ELEMENT hospital (patient+)>
+<!ELEMENT patient (patname, patid, paage, disease, tdname,roomno)>
+<!ELEMENT patname (#PCDATA)> 
+<!ELEMENT patid (#PCDATA)>
+<!ELEMENT paage (#PCDATA)>
+<!ELEMENT disease (#PCDATA)>
+<!ELEMENT tdname (#PCDATA)>
+<!ELEMENT roomno (#PCDATA)> ]>
+-->
+
 <hospital>
 
 <patient>
 <patname>Rahul</patname>
 <patid>123456</patid>
-<paage>16</paage>
+<paage>56</paage>
 <disease>Viral Fever</disease>
 <tdname>Sharan K</tdname>
 <roomno>456</roomno>
@@ -15,7 +28,7 @@
 <patient>
 <patname>Karunya</patname>
 <patid>876543</patid>
-<paage>28</paage>
+<paage>58</paage>
 <disease>Conjunctivitis</disease>
 <tdname>Manavi R</tdname>
 <roomno>800</roomno>
@@ -24,7 +37,7 @@
 <patient>
 <patname>Dayal</patname>
 <patid>246810</patid>
-<paage>29</paage>
+<paage>69</paage>
 <disease>Gastric Distress</disease>
 <tdname>Maya J</tdname>
 <roomno>310</roomno>
@@ -78,7 +91,7 @@
 <patient>
 <patname>Gerald</patname>
 <patid>999944</patid>
-<paage>36</paage>
+<paage>66</paage>
 <disease>Chickenpox</disease>
 <tdname>Edna S</tdname>
 <roomno>993</roomno>
@@ -105,7 +118,7 @@
 <patient>
 <patname>Ramya</patname>
 <patid>999999</patid>
-<paage>21</paage>
+<paage>51</paage>
 <disease>Chickenpox</disease>
 <tdname>Fareem W</tdname>
 <roomno>999</roomno>
@@ -123,7 +136,7 @@
 <patient>
 <patname>Kiara</patname>
 <patid>123422</patid>
-<paage>41</paage>
+<paage>81</paage>
 <disease>Viral Fever</disease>
 <tdname>Sharan K</tdname>
 <roomno>422</roomno>
@@ -136,6 +149,15 @@
 <disease>Dysentery</disease>
 <tdname>Maya J</tdname>
 <roomno>321</roomno>
+</patient>
+
+<patient>
+<patname>Rose</patname>
+<patid>111111</patid>
+<paage>74</paage>
+<disease>Pneumonia</disease>
+<tdname>Greg F</tdname>
+<roomno>470</roomno>
 </patient>
 
 </hospital>
