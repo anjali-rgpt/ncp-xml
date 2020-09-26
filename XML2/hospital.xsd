@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<!--Simple Elements-->
+
+<xs:element name="patname" >
+<xs:simpleType>
+<xs:restriction base="xs:string">
+<xs:pattern value="[A-Z][a-z]+"/>
+</xs:restriction>
+</xs:simpleType>
+</xs:element>
+
+<xs:element name="patid" type="xs:string" />
+<xs:element name="paage" type="xs:decimal"/>
+<xs:element name="disease" type="xs:string" />
+
+<xs:element name="tdname">
+<xs:simpleType>
+<xs:restriction base="xs:string">
+<xs:pattern value="[A-Za-z]+([\s*A-Za-z]+)*"/>
+</xs:restriction>
+</xs:simpleType>
+</xs:element>
+
+<xs:element name="roomno" type="xs:positiveInteger" />
+
+<!--Complex Elements-->
+
+<xs:element name="patient">
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="patname"/>
+<xs:element ref="patid"/>
+<xs:element ref="paage"/>
+<xs:element ref="disease"/>
+<xs:element ref="tdname"/>
+<xs:element ref="roomno"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+<xs:element name="hospital">
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="patient" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+</xs:schema>

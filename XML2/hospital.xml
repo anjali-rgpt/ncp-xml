@@ -16,7 +16,7 @@
 <!ELEMENT roomno (#PCDATA)> ]>
 -->
 
-<hospital>
+<hospital xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="hospital.xsd">
 
 <patient>
 <patname>Rahul</patname>
@@ -127,7 +127,7 @@
 </patient>
 
 <patient>
-<patname>Natraj Shahi</patname>
+<patname>Natraj</patname>
 <patid>666777</patid>
 <paage>62</paage>
 <disease>Renal Failure</disease>
