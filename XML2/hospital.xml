@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hospital>
+
+<patient>
+<patname>Rahul</patname>
+<patid>123456</patid>
+<paage>16</paage>
+<disease>Viral Fever</disease>
+<tdname>Sharan K</tdname>
+<roomno>456</roomno>
+</patient>
+
+<patient>
+<patname>Karunya</patname>
+<patid>876543</patid>
+<paage>28</paage>
+<disease>Conjunctivitis</disease>
+<tdname>Manavi R</tdname>
+<roomno>800</roomno>
+</patient>
+
+<patient>
+<patname>Dayal</patname>
+<patid>246810</patid>
+<paage>29</paage>
+<disease>Gastric Distress</disease>
+<tdname>Maya J</tdname>
+<roomno>310</roomno>
+</patient>
+
+<patient>
+<patname>Kavita</patname>
+<patid>464646</patid>
+<paage>54</paage>
+<disease>Dengue</disease>
+<tdname>Rina Valicia</tdname>
+<roomno>646</roomno>
+</patient>
+
+<patient>
+<patname>Mohanram</patname>
+<patid>555555</patid>
+<paage>71</paage>
+<disease>Influenza</disease>
+<tdname>Tara JS</tdname>
+<roomno>555</roomno>
+</patient>
+
+<patient>
+<patname>Alina</patname>
+<patid>666221</patid>
+<paage>10</paage>
+<disease>Measles</disease>
+<tdname>Nina H</tdname>
+<roomno>790</roomno>
+</patient>
+
+<patient>
+<patname>Shefali</patname>
+<patid>1AC344</patid>
+<paage>18</paage>
+<disease>Dengue</disease>
+<tdname>Ethan K</tdname>
+<roomno>650</roomno>
+</patient>
+
+<patient>
+<patname>Noor</patname>
+<patid>1AB123</patid>
+<paage>8</paage>
+<disease>Measles</disease>
+<tdname>Nina H</tdname>
+<roomno>777</roomno>
+</patient>
+
+<patient>
+<patname>Gerald</patname>
+<patid>999944</patid>
+<paage>36</paage>
+<disease>Chickenpox</disease>
+<tdname>Edna S</tdname>
+<roomno>993</roomno>
+</patient>
+
+<patient>
+<patname>Hritika</patname>
+<patid>999468</patid>
+<paage>25</paage>
+<disease>Chickenpox</disease>
+<tdname>Fareem W</tdname>
+<roomno>981</roomno>
+</patient>
+
+<patient>
+<patname>Krish</patname>
+<patid>1BA456</patid>
+<paage>43</paage>
+<disease>Tinnitis</disease>
+<tdname>Matthew Acer</tdname>
+<roomno>121</roomno>
+</patient>
+
+<patient>
+<patname>Ramya</patname>
+<patid>999999</patid>
+<paage>21</paage>
+<disease>Chickenpox</disease>
+<tdname>Fareem W</tdname>
+<roomno>999</roomno>
+</patient>
+
+<patient>
+<patname>Natraj Shahi</patname>
+<patid>666777</patid>
+<paage>62</paage>
+<disease>Renal Failure</disease>
+<tdname>Janaki O</tdname>
+<roomno>777</roomno>
+</patient>
+
+<patient>
+<patname>Kiara</patname>
+<patid>123422</patid>
+<paage>41</paage>
+<disease>Viral Fever</disease>
+<tdname>Sharan K</tdname>
+<roomno>422</roomno>
+</patient>
+
+<patient>
+<patname>Arissa</patname>
+<patid>222321</patid>
+<paage>34</paage>
+<disease>Dysentery</disease>
+<tdname>Maya J</tdname>
+<roomno>321</roomno>
+</patient>
+
+</hospital>
