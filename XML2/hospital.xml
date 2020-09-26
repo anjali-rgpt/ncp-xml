@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?xml-stylesheet type="text/xsl" href="hospital.xsl"?>
-<!--<?xml-stylesheet type="text/css" href="hospital.css"?>-->
+<?xml-stylesheet type="text/css" href="hospital.css"?>
 
 <!DOCTYPE hospital SYSTEM "hospital.dtd">
 <!-- <!DOCTYPE hospital[

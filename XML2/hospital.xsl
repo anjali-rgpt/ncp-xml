@@ -38,12 +38,24 @@ th,tr{
 <xsl:for-each select="/hospital/patient">
 <xsl:sort select="patname"/>
 <tr>
-<td><xsl:value-of select="patname"/></td>
-<td><xsl:value-of select="patid"/></td>
-<td><xsl:value-of select="paage"/></td>
-<td><xsl:value-of select="disease"/></td>
-<td><xsl:value-of select="tdname"/></td>
-<td><xsl:value-of select="roomno"/></td>
+<xsl:choose>
+<xsl:when test="paage &gt; 50">
+<td style="background-color:lightblue; color:black;"><xsl:value-of select="patname"/></td>
+<td style="background-color:lightblue; color:black;"><xsl:value-of select="patid"/></td>
+<td style="background-color:lightblue; color:black;"><xsl:value-of select="paage"/></td>
+<td style="background-color:lightblue; color:black;"><xsl:value-of select="disease"/></td>
+<td style="background-color:lightblue; color:black;"><xsl:value-of select="tdname"/></td>
+<td style="background-color:lightblue; color:black;"><xsl:value-of select="roomno"/></td>
+</xsl:when>
+<xsl:otherwise>
+<td style="background-color:red; color:white;"><xsl:value-of select="patname"/></td>
+<td style="background-color:red; color:white;"><xsl:value-of select="patid"/></td>
+<td style="background-color:red; color:white;"><xsl:value-of select="paage"/></td>
+<td style="background-color:red; color:white;"><xsl:value-of select="disease"/></td>
+<td style="background-color:red; color:white;"><xsl:value-of select="tdname"/></td>
+<td style="background-color:red; color:white;"><xsl:value-of select="roomno"/></td>
+</xsl:otherwise>
+</xsl:choose>
 </tr>
 </xsl:for-each>
 </table>
